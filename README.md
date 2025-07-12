@@ -46,21 +46,4 @@ client/
 │   ├── main.jsx        # Entry point
 ├── .env
 ├── vite.config.js
-git clone https://github.com/itssaurabhsingh07/AI-Supreme.git
-cd AI-Supreme/client
-npm install
-npm run dev
-📬 Contact
-If you'd like to contribute, suggest features, or just say hi 👋:
-Saurabh Singh — itssaurabhsingh07@gmail.com
 
----
-
-### ✅ Next Step
-
-Save this file as `README.md` inside the root of your project folder and push it:
-
-```bash
-git add README.md
-git commit -m "Add project README"
-git push origin main
