@@ -22,22 +22,23 @@ const Navbar = () => {
                             min-md:rounded-full backdrop-blur bg-black/70 md:bg-white/10 md:border
                            border-gray-300/20 overflow-hidden transition-[width] duration-300 ${isOpen ? 'max-md:w-full' : 'max-md:w-0'}`}>
                 <XIcon className='md:hidden absolute top-6 right-6 w-6 h-6 cursor-pointer' onClick={() => setIsOpen(!isOpen)} />
-                <Link onClick={() => { scrollTo(0, 0), setIsOpen(false) }}
+                <Link onClick={() => { scrollTo(0, 0); setIsOpen(false) }}
                     to='/'>Home</Link>
-                <Link onClick={() => { scrollTo(0, 0), setIsOpen(false) }}
+                <Link onClick={() => { scrollTo(0, 0); setIsOpen(false) }}
                     to='/movie'>Movies</Link>
-                <Link onClick={() => { scrollTo(0, 0), setIsOpen(false) }}
+                <Link onClick={() => { scrollTo(0, 0); setIsOpen(false) }}
                     to='/'>Theatre</Link>
-                <Link onClick={() => { scrollTo(0, 0), setIsOpen(false) }}
+                <Link onClick={() => { scrollTo(0, 0); setIsOpen(false) }}
                     to='/'>Releases</Link>
-                <Link onClick={() => { scrollTo(0, 0), setIsOpen(false) }}
+                <Link onClick={() => { scrollTo(0, 0); setIsOpen(false) }}
                     to='/Favorites'>Favorites</Link>
             </div>
             <div className='flex items-center gap-8'>
                 <SearchIcon className='max-md:hidden w-6 h-6 cursor-pointer' />
                 {
                     !user ? (
-                        <button onClick={openSignIn} className='px-4 py-1 sm:px-7 sm:py-2 bg-primary hover:bg-primary-dull transition rounded-full font-medium cursor-pointer'>
+                        <button onClick={openSignIn} className='px-4 py-1 sm:px-7 sm:py-2 bg-primary hover:bg-primary-dull transition 
+                        rounded-full font-medium cursor-pointer'>
                             Login
                         </button>) : (
                         <UserButton>
