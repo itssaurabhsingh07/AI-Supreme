@@ -33,17 +33,5 @@ Built with speed, style, and scalability in mind — it’s where design meets f
 
 ---
 
-## 📁 Project Structure
 
-```bash
-client/
-├── public/             # Static assets
-├── src/
-│   ├── assets/         # Images, SVGs, JS assets
-│   ├── components/     # Navbar, HeroSection, Footer, etc.
-│   ├── pages/          # Home, Movie Details, Seat Layout, My Booking, etc.
-│   ├── App.jsx         # Main component
-│   ├── main.jsx        # Entry point
-├── .env
-├── vite.config.js
 
