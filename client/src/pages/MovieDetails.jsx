@@ -37,7 +37,6 @@ const Moviedetails = () => {
         <p>
           {TimeFormat(show.movie.runtime)} . {show.movie.genres.map(genre =>genre.name).join(",")} . {show.movie.release_date.split("-")[0]}
         </p>
-        <p> my Self Sammy </p>
       </div>
      </div>
     </div>
